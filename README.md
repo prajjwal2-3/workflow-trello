@@ -82,7 +82,7 @@ Clone the repository
    ```
 
    The backend server will run on `http://localhost:5000`.
-
+   Currently Backend is hosted on Render at `https://trello-backend-kkt8.onrender.com/`
 
 ### Frontend Setup
 
