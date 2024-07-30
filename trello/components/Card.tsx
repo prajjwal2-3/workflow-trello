@@ -43,7 +43,7 @@ export const Card = ({
   const dispatch = useDispatch<AppDispatch>();
   function convertToITC(utcDateTimeString :string){
     const utcDate = new Date(utcDateTimeString);
-    const istOffset = 5.5 * 60 * 60 * 1000; // IST offset in milliseconds
+    const istOffset = 5.5 * 60 * 60 * 1000;
     const istDate = new Date(utcDate.getTime() + istOffset);
     const formattedISTDate = istDate.toISOString().split('T')[0];
     return formattedISTDate

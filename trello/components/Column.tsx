@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
 import { AddCard } from "./AddCard";
 import { Card } from "./Card";
-import TaskModel from "./dashboard/TaskModel";
+import TaskModel from "./dashboard/TaskModal";
 type ColumnProps = {
   title: string;
  
